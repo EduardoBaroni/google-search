@@ -1,0 +1,183 @@
+body {
+  background-color: rgb(32, 33, 36);
+}
+
+.screen-center {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@media (min-width:600px ){
+    #google-logo {
+      top: -300px;
+  }
+  #google-logo-img {
+    top: -200px;
+  }
+  #text {
+      width: 600px;
+      height: 40px;
+      font-size: large;
+      font-family: Verdana;
+      padding-left: 20px;
+  
+      border-radius: 25px;
+      border: 2px solid black;
+  }
+  #submit {
+      width: 150px;
+      height: 30px;
+      font-size: medium;
+      top: 100px;
+      right: 200px;
+  }
+  #submit-lucky {
+    width: 150px;
+    height: 30px;
+    font-size: medium;
+    top: 100px;
+    right: -200px;
+  }
+}
+
+@media (min-width:600px ){
+  #google-logo {
+    top: -300px;
+}
+#google-logo-img {
+  top: -200px;
+}
+#text {
+    width: 600px;
+    height: 40px;
+    font-size: large;
+    font-family: Verdana;
+    padding-left: 20px;
+
+    border-radius: 25px;
+    border: 2px solid black;
+}
+#submit {
+    width: 150px;
+    height: 30px;
+    font-size: medium;
+    top: 100px;
+    right: 200px;
+}
+#submit-lucky {
+  width: 150px;
+  height: 30px;
+  font-size: medium;
+  top: 100px;
+  right: -200px;
+}
+}
+
+.upper-right {
+    font-size: large;
+    color: white;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+#img {
+  right: 12%;
+}
+
+/* ADVANCED SEARCH */
+#title-adv {
+  width: 400px;
+  height: 40px;
+  font-size: xx-large;
+  color: rgb(242, 139, 121);
+  top: -450px;
+}
+#subtitle-adv {
+  width: 400px;
+  height: 40px;
+  font-size: x-large;
+  color: white;
+  right: 400px;
+  top: -300px;
+}
+#atw {
+  width: 400px;
+  height: 40px;
+  font-size: large;
+  background-color: rgb(32, 33, 36);
+  color: rgb(189, 193, 198);
+  top: -200px;
+}
+#tewf {
+  width: 400px;
+  height: 40px;
+  font-size: large;
+  background-color: rgb(32, 33, 36);
+  color: rgb(189, 193, 198);
+  top: 0;
+}
+#aotw {
+  width: 400px;
+  height: 40px;
+  font-size: large;
+  background-color: rgb(32, 33, 36);
+  color: rgb(189, 193, 198);
+  top: 200px;
+}
+#notw {
+  width: 400px;
+  height: 40px;
+  font-size: large;
+  background-color: rgb(32, 33, 36);
+  color: rgb(189, 193, 198);
+  top: 400px;
+
+}
+#atw-text {
+  width: 400px;
+  height: 40px;
+  font-size: large;
+  color: rgb(189, 193, 198);
+  right: 400px;
+  top: -180px;
+}
+#tewf-text {
+  width: 400px;
+  height: 40px;
+  font-size: large;
+  color: rgb(189, 193, 198);
+  right: 400px;
+  top: 20px;
+}
+#aotw-text {
+  width: 400px;
+  height: 40px;
+  font-size: large;
+  color: rgb(189, 193, 198);
+  right: 400px;
+  top: 220px;
+
+}
+#notw-text {
+  width: 400px;
+  height: 40px;
+  font-size: large;
+  color: rgb(189, 193, 198);
+  right: 400px;
+  top: 420px;
+
+}
+#atw-submit {
+  width: 200px;
+  height: 40px;
+  font-size: large;
+  right: 230px;
+  top: 620px;
+  color: black;
+  background-color: rgb(174, 203, 250);
+}
