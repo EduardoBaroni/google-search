@@ -11,41 +11,7 @@ body {
   margin: auto;
 }
 
-@media (min-width:600px ){
-    #google-logo {
-      top: -300px;
-  }
-  #google-logo-img {
-    top: -200px;
-  }
-  #text {
-      width: 600px;
-      height: 40px;
-      font-size: large;
-      font-family: Verdana;
-      padding-left: 20px;
-  
-      border-radius: 25px;
-      border: 2px solid black;
-  }
-  #submit {
-      width: 150px;
-      height: 30px;
-      font-size: medium;
-      top: 100px;
-      right: 200px;
-  }
-  #submit-lucky {
-    width: 150px;
-    height: 30px;
-    font-size: medium;
-    top: 100px;
-    right: -200px;
-  }
-}
-
-@media (min-width:600px ){
-  #google-logo {
+#google-logo {
     top: -300px;
 }
 #google-logo-img {
@@ -75,7 +41,13 @@ body {
   top: 100px;
   right: -200px;
 }
+#submit-img {
+  width: 150px;
+  height: 30px;
+  font-size: medium;
+  top: 100px;
 }
+
 
 .upper-right {
     font-size: large;
